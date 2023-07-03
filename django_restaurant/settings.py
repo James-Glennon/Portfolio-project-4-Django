@@ -30,7 +30,8 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-james-glennon-portfolio-v6rvjsr8oi.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-james-glennon-portfolio-v6rvjsr8oi.us2.codeanyapp.com',
+                 'portfolio4-django-78b028d88d82.herokuapp.com']
 
 
 # Application definition
