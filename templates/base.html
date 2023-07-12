@@ -78,11 +78,14 @@
                 aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#">Home</a></li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#">About</a></li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#">Products</a>
+                    <li class="nav-item px-lg-4"><a class=" text-uppercase" href="{% url 'account_login' %}">Log
+                            In</a></li>
+                    <li class="nav-item px-lg-4"><a class="text-uppercase" href="{% url 'account_logout' %}">Log
+                            Out</a></li>
+                    <li class="nav-item px-lg-4"><a class="text-uppercase" href="{% url 'account_signup' %}">Sign
+                            Up</a>
                     </li>
-                    <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="#">Store</a></li>
+                    <li class="nav-item px-lg-4"><a class="text-uppercase" href="{% url 'home' %}">Home</a></li>
                 </ul>
             </div>
         </div>
