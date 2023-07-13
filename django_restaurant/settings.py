@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-james-glennon-portfolio-v6rvjsr8oi.us2.codeanyapp.com',
                  'portfolio4-django-78b028d88d82.herokuapp.com']
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'bookings',
+    'models',
 ]
 
 SITE_ID = 1
@@ -104,13 +105,6 @@ WSGI_APPLICATION = 'django_restaurant.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 
 DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
