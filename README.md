@@ -42,13 +42,15 @@ The booking request is tied to a **User ID**, which has a matching _email_, allo
 
 Development was carried out using Django frameworks.
 
-Progess was recorded using [GitHubBoards](https://github.com/users/James-Glennon/projects/4/views/1) Thou
+Progress was recorded using [GitHubBoards](https://github.com/users/James-Glennon/projects/4/views/1) 
+
+Though in a way that was unorganised and inconsistent, despite the utility present with the management tool.
 
 ### Resolved Issues
 
 ### Known Bugs / Unresolved Issues
 
-I cannot seem to link my template to my css files present in my static files using the { static 'css/base.css'}. I don't know why.
+I cannot seem to link my template to the CSS files present in my static files using the { static 'css/base.css'}. I don't know why.
 
 When trying to visualise the model data as a query set in the front end as shown in the lessons, my Guest model seems not to have a .objects property. I don't know why.
 
@@ -66,7 +68,7 @@ Version control was enabled with [GitHub](https://github.com/James-Glennon/Portf
 
 The project was remotely posted to [Heroku](https://dashboard.heroku.com/apps/portfolio4-django) using the Heroku CLI.
 
-Static files, such as css and js required for the Start Bootstrap are to be hosted at cloudinary, however
+Static files, such as CSS and js required for the Start Bootstrap are to be hosted at Cloudinary, however
 the **Project is incomplete**
 
 ## Room for Improvement / Expansion
