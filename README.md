@@ -68,6 +68,12 @@ Version control was enabled with [GitHub](https://github.com/James-Glennon/Portf
 
 The project was remotely posted to [Heroku](https://dashboard.heroku.com/apps/portfolio4-django) using the Heroku CLI.
 
+The final deployment to heroku failed, and so the page was rolled back to a previous version that deployed to heroku successfully.
+
+I do not know why the later deployments failed (with a H10 Error),
+
+After looking into the error, it seems most commonly linked to a Procfile error. However, the Procfile was unchanged from the last deploy and the functional ones prior.
+
 Static files, such as CSS and js required for the Start Bootstrap are to be hosted at Cloudinary, however
 the **Project is incomplete**
 
