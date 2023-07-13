@@ -1,1 +1,1 @@
-web:gunicorn django_restaurant.wsgi
+web: gunicorn django_restaurant.wsgi
